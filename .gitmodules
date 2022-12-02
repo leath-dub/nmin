@@ -1,3 +1,3 @@
 [submodule "pack/everforest"]
-	path = pack/sub/everforest
+	path = pack/start/everforest
 	url = https://github.com/sainnhe/everforest
