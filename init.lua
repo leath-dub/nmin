@@ -75,3 +75,4 @@ vim.cmd(
 
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = 'both'
+vim.cmd("silent! colorscheme everforest")
