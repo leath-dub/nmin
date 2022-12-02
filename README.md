@@ -6,10 +6,10 @@ This a clean minimal config for neovim.
 To use this config, simply clone it into .config/nvim ( create these directories
 if they do not exist )
 ```sh
-git clone https://github.com/leath-dub/nmin ~/.config/nvim
+git clone --recurse-submodules https://github.com/leath-dub/nmin ~/.config/nvim
 ```
 
-Then move to the location and checkout the submodules
+If you need to update the colorscheme
 ```sh
 cd ~/.config/nvim
 git submodule update --init --recursive
