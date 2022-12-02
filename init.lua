@@ -63,16 +63,11 @@ vim.opt.list = true
 vim.opt.laststatus = 2
 vim.opt.colorcolumn = '80'
 
--- Term gui if not in tty
-vim.cmd(
-  [[
-    set termguicolors
-    if empty($DISPLAY)
-      set termguicolors!
-    endif
-  ]]
-)
-
+vim.opt.termguicolors = true
 vim.opt.cursorline = true
 vim.opt.cursorlineopt = 'both'
+
+-- colorscheme provided by git submodule
+vim.g.everforest_better_performance = 1
+vim.g.everforest_background = 'hard'
 vim.cmd("silent! colorscheme everforest")
